@@ -1,23 +1,17 @@
-# Third Party imports
-import wmi
+from pathlib import Path,PureWindowsPath
+from catherineParser import init
 
-# Custom Imports
-from utils import catherineParser as cParser
-
-# Instantiation
-c = wmi.WMI()
 
 def launch_gui():
 	pass
 	# TODO
 	# List files under ./files/commands
-		# Allow User to select Commands to Load or Create New File
-
+		# Allow User to select Commands to Load or Record their own 
 def main():
-	pass
-	# TODO
-	# Check if Catherine Process is running
-		# Launch GUI
+	command_file = Path("./files/commands/Esky.json")
+	command_path = PureWindowsPath(command_file)
+	init(command_path)
+
 
 if __name__ == "__main__":
 	main()

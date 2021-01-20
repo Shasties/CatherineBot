@@ -3,16 +3,7 @@
 "Stage": "Quadrangle",
 "Main": [
 	"Left",
-	"Pull Down",
-	"Right",
-	"Up",
-	"Left",
-	"Up",
-	"Left",
-	"Pull-Rise-Right",
-	"Left",
-	"Turn Up"
-	"Push",
+	"Push Up"
 	],
 "Macros": {
 	"Pull-Rise-Right": [
