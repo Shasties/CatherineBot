@@ -31,7 +31,7 @@ def recordInputs():
 translate_events = {
     "ABS_HAT0X": {-1: "Left", 1: "Right", 0: "IGNORE"},
     "ABS_HAT0Y": {-1: "Up", 1: "Down", 0: "IGNORE"},
-    "BTN_SOUTH": {0: "Grab", 1: "IGNORE"}
+    "BTN_SOUTH": {1: "Grab", 0: "IGNORE"}
 }
 
 def cleanInputs(unclean_inputs):

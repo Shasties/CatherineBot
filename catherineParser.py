@@ -53,6 +53,7 @@ inverseDirections = {
 ### Interpreter
 def init(filePath):
 	data = json.load(open(filePath))
+	pushed_keys = {"Up": False, "Down": False, "Left": False, "Right": False, "Grab": False}
 	if data['Style'] == "Manual":
 		for c in data['Main']:
 			try:
@@ -75,11 +76,17 @@ def init(filePath):
 
 	elif data['Style'] == "Recorded":
 		print("Reading Recorded file")
+		total_time = sorted(data['Main'], key=lambda k: k['End'])[-1]['End']
 		start_time = round(time.time(),2)
-		while time.time() < start_time+5:
-			timer = time.time() - start_time
+		print("length of recording: "+str(total_time))
+		while time.time() < start_time+total_time:
+			timer = round(time.time() - start_time,2)
 			for c in data['Main']:
-				if timer > c['Start'] and timer < c['End']:
+				if timer > c['Start'] and timer < c['End'] and not pushed_keys[c['State']]:
+					print("pressing key "+ c['State'])
 					PressKey(dk[config[c['State']]])
-				elif timer == c['End']:
+					pushed_keys[c['State']] = True
+				elif timer == c['End'] and pushed_keys[c['State']]:
+					print("releasing "+c['State'])
 					ReleaseKey(dk[config[c['State']]])
+					pushed_keys[c['State']] = False
