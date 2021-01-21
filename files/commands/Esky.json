@@ -1,8 +1,19 @@
 {
 "Name": "Esky",
 "Stage": "Quadrangle",
+"Style": "Manual",
 "Main": [
 	"Left",
+	"Pull Down",
+	"Right",
+	"Up",
+	"Climb Left",
+	"Climb Up",
+	"Left",
+	"Pull Down",
+	"Right",
+	"Up",
+	"Climb Left",
 	"Push Up"
 	],
 "Macros": {
