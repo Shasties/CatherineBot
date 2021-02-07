@@ -2,22 +2,39 @@ from pathlib import Path,PureWindowsPath
 from inputs import get_gamepad
 from catherineParser import init
 from inputRecorder import recordInputs
+from tkinter import *
 
 import time
 import json
+import tkinter
+import os
 
 toggle_play = ["BTN_TR"]
 toggle_record = ["BTN_TL"]
-config = {
-	"Stage": "Quadrangle",
-	"Name": "Temp"
-}
+config = {}
+stages = ['Underground','Torture','Quadrangle','Clock Tower','Spiral Corridor','Cathedral']
+
+def get_openings():
+    list_of_openings = []
+    for filename in os.listdir(os.getcwd()+'\\files\\commands'):
+        if ".json" in filename:
+            list_of_openings.append(filename)
+    return list_of_openings
 
 def launch_gui():
-	pass
-	# TODO
-	# List files under ./files/commands
-		# Allow User to select Commands to Load or Record their own 
+    root = tkinter.Tk()
+    root.title("Catherine dummy alpha")
+
+    checkbox_frame = Frame(root).grid(row=0,column=0)
+    # Create checkboxes based on files
+    list_of_openings = get_openings()
+    column_index=0
+    for i in range(len(list_of_openings)):
+        if i%5 == 0: 
+            column_index = column_index+1
+        Checkbutton(checkbox_frame,text=list_of_openings[i]).grid(row=column_index,column=i%5)
+    root.mainloop()
+
 def main():
 	while 1:
 		events = get_gamepad()
@@ -45,4 +62,4 @@ def main():
 
 
 if __name__ == "__main__":
-	main()
+	launch_gui()
