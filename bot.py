@@ -1,24 +1,38 @@
 from pathlib import Path,PureWindowsPath
 from inputs import get_gamepad
-from catherineParser import init
-from inputRecorder import recordInputs
+#from catherineParser import init
+#from inputRecorder import recordInputs
 from tkinter import *
 
 import time
 import json
 import tkinter
 import os
+import json
+import random
 
 toggle_play = ["BTN_TR"]
 toggle_record = ["BTN_TL"]
 config = {}
 stages = ['Underground','Torture','Quadrangle','Clock Tower','Spiral Corridor','Cathedral']
 
+def getSelected(buttons):
+    selected_buttons = []
+    for opening in buttons:
+        if (buttons[opening]['Value'].get()) == 1:
+            selected_buttons.append(opening)
+    print(random.choice(selected_buttons))
+
 def get_openings():
-    list_of_openings = []
-    for filename in os.listdir(os.getcwd()+'\\files\\commands'):
-        if ".json" in filename:
-            list_of_openings.append(filename)
+    list_of_openings = {}
+    for stage in stages:
+        list_of_openings[stage] = []
+    for filename in os.listdir(os.getcwd()+'/files/commands'):
+        myfile = os.getcwd()+'/files/commands/'+filename
+        if ".json" in myfile:
+            with open(myfile) as f:
+                data = json.load(f)
+                list_of_openings[data['Stage']].append(data['Name'])
     return list_of_openings
 
 def launch_gui():
@@ -26,13 +40,27 @@ def launch_gui():
     root.title("Catherine dummy alpha")
 
     checkbox_frame = Frame(root).grid(row=0,column=0)
+    openings_buttons = {}
     # Create checkboxes based on files
     list_of_openings = get_openings()
     column_index=0
-    for i in range(len(list_of_openings)):
-        if i%5 == 0: 
-            column_index = column_index+1
-        Checkbutton(checkbox_frame,text=list_of_openings[i]).grid(row=column_index,column=i%5)
+    for stage in list_of_openings.keys():
+        # Print name of Stage
+        Label( root, text = stage).grid(row=column_index,column=0)
+        # List openings
+        for i in range(len(list_of_openings[stage])):
+            opening_name = list_of_openings[stage][i]
+            openings_buttons[opening_name] = {}
+            if i%5 == 0: 
+                column_index = column_index+1
+            openings_buttons[opening_name]['Value'] = tkinter.IntVar()
+            openings_buttons[opening_name]['Button'] = Checkbutton(checkbox_frame,text=list_of_openings[stage][i],variable=openings_buttons[opening_name]['Value'])
+            openings_buttons[opening_name]['Button'].grid(row=column_index,column=i%5)
+        column_index = column_index + 1
+
+    # Allow User to set toggle button
+    Button(checkbox_frame, text ="Configure Toggle", command= lambda: getSelected(openings_buttons)).grid(row=column_index,column=0)
+
     root.mainloop()
 
 def main():
