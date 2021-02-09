@@ -1,0 +1,132 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 1.11,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 1.61,
+            "Event": "BTN_SOUTH",
+            "Start": 1.19,
+            "State": "Grab"
+        },
+        {
+            "End": 1.65,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.23,
+            "State": "Down"
+        },
+        {
+            "End": 2.24,
+            "Event": "ABS_HAT0X",
+            "Start": 2.1,
+            "State": "Left"
+        },
+        {
+            "End": 2.63,
+            "Event": "ABS_HAT0X",
+            "Start": 2.48,
+            "State": "Right"
+        },
+        {
+            "End": 3.03,
+            "Event": "ABS_HAT0Y",
+            "Start": 2.75,
+            "State": "Down"
+        },
+        {
+            "End": 3.05,
+            "Event": "BTN_SOUTH",
+            "Start": 2.75,
+            "State": "Grab"
+        },
+        {
+            "End": 3.86,
+            "Event": "BTN_SOUTH",
+            "Start": 3.6,
+            "State": "Grab"
+        },
+        {
+            "End": 3.82,
+            "Event": "ABS_HAT0Y",
+            "Start": 3.63,
+            "State": "Down"
+        },
+        {
+            "End": 4.53,
+            "Event": "ABS_HAT0X",
+            "Start": 4.39,
+            "State": "Left"
+        },
+        {
+            "End": 4.89,
+            "Event": "ABS_HAT0X",
+            "Start": 4.73,
+            "State": "Left"
+        },
+        {
+            "End": 5.26,
+            "Event": "ABS_HAT0Y",
+            "Start": 5.06,
+            "State": "Up"
+        },
+        {
+            "End": 5.74,
+            "Event": "ABS_HAT0Y",
+            "Start": 5.55,
+            "State": "Up"
+        },
+        {
+            "End": 6.2,
+            "Event": "BTN_SOUTH",
+            "Start": 5.89,
+            "State": "Grab"
+        },
+        {
+            "End": 6.21,
+            "Event": "ABS_HAT0Y",
+            "Start": 5.93,
+            "State": "Down"
+        },
+        {
+            "End": 6.86,
+            "Event": "ABS_HAT0X",
+            "Start": 6.67,
+            "State": "Right"
+        },
+        {
+            "End": 7.2,
+            "Event": "ABS_HAT0X",
+            "Start": 7.02,
+            "State": "Right"
+        },
+        {
+            "End": 7.63,
+            "Event": "ABS_HAT0Y",
+            "Start": 7.46,
+            "State": "Up"
+        },
+        {
+            "End": 8.16,
+            "Event": "ABS_HAT0Y",
+            "Start": 7.92,
+            "State": "Up"
+        },
+        {
+            "End": 8.7,
+            "Event": "ABS_HAT0Y",
+            "Start": 8.56,
+            "State": "Up"
+        }
+    ],
+    "Name": "RecoveryFromHell",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Spiral Corridor",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

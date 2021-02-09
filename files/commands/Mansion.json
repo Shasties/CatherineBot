@@ -1,0 +1,168 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.45,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 0.84,
+            "Event": "BTN_SOUTH",
+            "Start": 0.52,
+            "State": "Grab"
+        },
+        {
+            "End": 0.86,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.53,
+            "State": "Down"
+        },
+        {
+            "End": 1.23,
+            "Event": "ABS_HAT0X",
+            "Start": 0.98,
+            "State": "Right"
+        },
+        {
+            "End": 1.53,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.26,
+            "State": "Up"
+        },
+        {
+            "End": 1.98,
+            "Event": "ABS_HAT0X",
+            "Start": 1.53,
+            "State": "Left"
+        },
+        {
+            "End": 2.36,
+            "Event": "BTN_SOUTH",
+            "Start": 1.6,
+            "State": "Grab"
+        },
+        {
+            "End": 2.37,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.96,
+            "State": "Down"
+        },
+        {
+            "End": 2.77,
+            "Event": "ABS_HAT0X",
+            "Start": 2.54,
+            "State": "Left"
+        },
+        {
+            "End": 3.04,
+            "Event": "ABS_HAT0Y",
+            "Start": 2.87,
+            "State": "Up"
+        },
+        {
+            "End": 4.02,
+            "Event": "ABS_HAT0Y",
+            "Start": 3.74,
+            "State": "Down"
+        },
+        {
+            "End": 4.03,
+            "Event": "BTN_SOUTH",
+            "Start": 3.74,
+            "State": "Grab"
+        },
+        {
+            "End": 4.53,
+            "Event": "ABS_HAT0Y",
+            "Start": 4.3,
+            "State": "Up"
+        },
+        {
+            "End": 4.96,
+            "Event": "ABS_HAT0X",
+            "Start": 4.62,
+            "State": "Left"
+        },
+        {
+            "End": 5.39,
+            "Event": "ABS_HAT0Y",
+            "Start": 4.92,
+            "State": "Down"
+        },
+        {
+            "End": 5.35,
+            "Event": "BTN_SOUTH",
+            "Start": 4.97,
+            "State": "Grab"
+        },
+        {
+            "End": 5.91,
+            "Event": "ABS_HAT0X",
+            "Start": 5.71,
+            "State": "Right"
+        },
+        {
+            "End": 6.13,
+            "Event": "ABS_HAT0Y",
+            "Start": 5.93,
+            "State": "Up"
+        },
+        {
+            "End": 6.69,
+            "Event": "ABS_HAT0X",
+            "Start": 6.13,
+            "State": "Left"
+        },
+        {
+            "End": 7.1,
+            "Event": "ABS_HAT0Y",
+            "Start": 6.68,
+            "State": "Down"
+        },
+        {
+            "End": 7.03,
+            "Event": "BTN_SOUTH",
+            "Start": 6.71,
+            "State": "Grab"
+        },
+        {
+            "End": 7.9,
+            "Event": "ABS_HAT0X",
+            "Start": 7.48,
+            "State": "Right"
+        },
+        {
+            "End": 7.91,
+            "Event": "BTN_SOUTH",
+            "Start": 7.68,
+            "State": "Grab"
+        },
+        {
+            "End": 8.77,
+            "Event": "ABS_HAT0X",
+            "Start": 8.08,
+            "State": "Left"
+        },
+        {
+            "End": 9.16,
+            "Event": "ABS_HAT0Y",
+            "Start": 8.7,
+            "State": "Up"
+        },
+        {
+            "End": 9.55,
+            "Event": "ABS_HAT0X",
+            "Start": 9.19,
+            "State": "Right"
+        }
+    ],
+    "Name": "Mansion",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Cathedral",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

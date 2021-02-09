@@ -2,9 +2,8 @@ from inputs import get_gamepad
 import time
 
 controller_events = ["ABS_HAT0X","ABS_HAT0Y","BTN_SOUTH"]
-controller_toggle = ["BTN_TL"]
 
-def recordInputs():
+def recordInputs(config):
     input_list = []
     state_queue = {}
     toggled = False
@@ -23,7 +22,7 @@ def recordInputs():
                     state_queue[event.code] = [event.state,current_time]
                 except Exception as e: # Used to initialize state_queue
                     state_queue[event.code] = [event.state,current_time]
-            elif event.code in controller_toggle and event.state == 0:
+            elif event.code in config['Record'] and event.state == 0:
                 toggled = True
     return cleanInputs(input_list)
 

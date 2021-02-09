@@ -1,0 +1,90 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.54,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 0.5,
+            "Event": "BTN_SOUTH",
+            "Start": 0.29,
+            "State": "Grab"
+        },
+        {
+            "End": 1.31,
+            "Event": "ABS_HAT0X",
+            "Start": 0.68,
+            "State": "Right"
+        },
+        {
+            "End": 2.09,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.32,
+            "State": "Up"
+        },
+        {
+            "End": 2.06,
+            "Event": "BTN_SOUTH",
+            "Start": 1.69,
+            "State": "Grab"
+        },
+        {
+            "End": 2.48,
+            "Event": "ABS_HAT0X",
+            "Start": 2.3,
+            "State": "Left"
+        },
+        {
+            "End": 2.74,
+            "Event": "ABS_HAT0Y",
+            "Start": 2.66,
+            "State": "Up"
+        },
+        {
+            "End": 3.98,
+            "Event": "ABS_HAT0Y",
+            "Start": 3.73,
+            "State": "Up"
+        },
+        {
+            "End": 4.32,
+            "Event": "ABS_HAT0Y",
+            "Start": 4.13,
+            "State": "Up"
+        },
+        {
+            "End": 5.04,
+            "Event": "ABS_HAT0X",
+            "Start": 4.48,
+            "State": "Right"
+        },
+        {
+            "End": 5.45,
+            "Event": "BTN_SOUTH",
+            "Start": 4.64,
+            "State": "Grab"
+        },
+        {
+            "End": 5.52,
+            "Event": "ABS_HAT0X",
+            "Start": 5.11,
+            "State": "Left"
+        },
+        {
+            "End": 6.14,
+            "Event": "ABS_HAT0X",
+            "Start": 5.69,
+            "State": "Right"
+        }
+    ],
+    "Name": "Drop",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Torture",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

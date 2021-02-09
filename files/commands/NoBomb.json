@@ -1,0 +1,72 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.74,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 1.12,
+            "Event": "BTN_SOUTH",
+            "Start": 0.77,
+            "State": "Grab"
+        },
+        {
+            "End": 1.1,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.86,
+            "State": "Down"
+        },
+        {
+            "End": 1.53,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.28,
+            "State": "Up"
+        },
+        {
+            "End": 2.03,
+            "Event": "BTN_SOUTH",
+            "Start": 1.72,
+            "State": "Grab"
+        },
+        {
+            "End": 2.03,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.75,
+            "State": "Up"
+        },
+        {
+            "End": 2.52,
+            "Event": "ABS_HAT0Y",
+            "Start": 2.19,
+            "State": "Down"
+        },
+        {
+            "End": 3.0,
+            "Event": "ABS_HAT0Y",
+            "Start": 2.64,
+            "State": "Up"
+        },
+        {
+            "End": 3.0,
+            "Event": "BTN_SOUTH",
+            "Start": 2.72,
+            "State": "Grab"
+        },
+        {
+            "End": 3.64,
+            "Event": "ABS_HAT0Y",
+            "Start": 3.21,
+            "State": "Up"
+        }
+    ],
+    "Name": "NoBomb",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Clock Tower",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

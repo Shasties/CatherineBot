@@ -1,0 +1,84 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.16,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 0.78,
+            "Event": "ABS_HAT0X",
+            "Start": 0.27,
+            "State": "Right"
+        },
+        {
+            "End": 2.21,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.78,
+            "State": "Up"
+        },
+        {
+            "End": 2.7,
+            "Event": "ABS_HAT0X",
+            "Start": 2.2,
+            "State": "Left"
+        },
+        {
+            "End": 2.98,
+            "Event": "ABS_HAT0Y",
+            "Start": 2.7,
+            "State": "Up"
+        },
+        {
+            "End": 3.4,
+            "Event": "ABS_HAT0X",
+            "Start": 3.0,
+            "State": "Left"
+        },
+        {
+            "End": 3.43,
+            "Event": "BTN_SOUTH",
+            "Start": 3.06,
+            "State": "Grab"
+        },
+        {
+            "End": 4.17,
+            "Event": "ABS_HAT0X",
+            "Start": 3.62,
+            "State": "Left"
+        },
+        {
+            "End": 4.11,
+            "Event": "BTN_SOUTH",
+            "Start": 3.89,
+            "State": "Grab"
+        },
+        {
+            "End": 4.63,
+            "Event": "ABS_HAT0X",
+            "Start": 4.42,
+            "State": "Right"
+        },
+        {
+            "End": 6.57,
+            "Event": "ABS_HAT0X",
+            "Start": 5.57,
+            "State": "Left"
+        },
+        {
+            "End": 5.88,
+            "Event": "BTN_SOUTH",
+            "Start": 5.65,
+            "State": "Grab"
+        }
+    ],
+    "Name": "BakaPush",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Cathedral",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

@@ -1,0 +1,66 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.13,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 0.73,
+            "Event": "ABS_HAT0X",
+            "Start": 0.3,
+            "State": "Right"
+        },
+        {
+            "End": 1.68,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.75,
+            "State": "Up"
+        },
+        {
+            "End": 2.51,
+            "Event": "ABS_HAT0X",
+            "Start": 1.71,
+            "State": "Left"
+        },
+        {
+            "End": 2.17,
+            "Event": "BTN_SOUTH",
+            "Start": 1.8,
+            "State": "Grab"
+        },
+        {
+            "End": 4.02,
+            "Event": "BTN_SOUTH",
+            "Start": 2.71,
+            "State": "Grab"
+        },
+        {
+            "End": 3.48,
+            "Event": "ABS_HAT0X",
+            "Start": 3.27,
+            "State": "Left"
+        },
+        {
+            "End": 4.59,
+            "Event": "ABS_HAT0X",
+            "Start": 3.7,
+            "State": "Right"
+        },
+        {
+            "End": 5.75,
+            "Event": "ABS_HAT0X",
+            "Start": 5.42,
+            "State": "Left"
+        }
+    ],
+    "Name": "IdiotPush",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Cathedral",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

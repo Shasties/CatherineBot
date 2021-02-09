@@ -1,0 +1,84 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.69,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 1.05,
+            "Event": "BTN_SOUTH",
+            "Start": 0.75,
+            "State": "Grab"
+        },
+        {
+            "End": 1.08,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.77,
+            "State": "Down"
+        },
+        {
+            "End": 1.48,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.24,
+            "State": "Up"
+        },
+        {
+            "End": 2.0,
+            "Event": "BTN_SOUTH",
+            "Start": 1.71,
+            "State": "Grab"
+        },
+        {
+            "End": 2.02,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.71,
+            "State": "Up"
+        },
+        {
+            "End": 2.51,
+            "Event": "ABS_HAT0X",
+            "Start": 2.22,
+            "State": "Right"
+        },
+        {
+            "End": 3.12,
+            "Event": "ABS_HAT0X",
+            "Start": 2.72,
+            "State": "Left"
+        },
+        {
+            "End": 3.11,
+            "Event": "BTN_SOUTH",
+            "Start": 2.81,
+            "State": "Grab"
+        },
+        {
+            "End": 5.48,
+            "Event": "ABS_HAT0X",
+            "Start": 3.29,
+            "State": "Left"
+        },
+        {
+            "End": 3.87,
+            "Event": "BTN_SOUTH",
+            "Start": 3.58,
+            "State": "Grab"
+        },
+        {
+            "End": 5.87,
+            "Event": "ABS_HAT0X",
+            "Start": 5.57,
+            "State": "Right"
+        }
+    ],
+    "Name": "Collapse",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Clock Tower",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}
