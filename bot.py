@@ -120,7 +120,7 @@ def launch_gui():
     column_index = 0
     for stage in list_of_openings.keys():
         # Print name of Stage
-        Label(root, text=stage,font='Helvetica 14 bold').grid(row=column_index, column=0)
+        Label(root, text=stage,font='Helvetica 14 bold').grid(sticky=W,row=column_index, column=0)
         # List openings
         for i in range(len(list_of_openings[stage])):
             opening_name = list_of_openings[stage][i]
