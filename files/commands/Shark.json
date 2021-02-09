@@ -1,0 +1,78 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.1,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 0.5,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.33,
+            "State": "Up"
+        },
+        {
+            "End": 1.04,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.85,
+            "State": "Up"
+        },
+        {
+            "End": 1.52,
+            "Event": "ABS_HAT0X",
+            "Start": 1.36,
+            "State": "Left"
+        },
+        {
+            "End": 2.07,
+            "Event": "BTN_SOUTH",
+            "Start": 1.78,
+            "State": "Grab"
+        },
+        {
+            "End": 2.06,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.87,
+            "State": "Down"
+        },
+        {
+            "End": 2.77,
+            "Event": "ABS_HAT0X",
+            "Start": 2.62,
+            "State": "Left"
+        },
+        {
+            "End": 3.13,
+            "Event": "ABS_HAT0X",
+            "Start": 2.99,
+            "State": "Left"
+        },
+        {
+            "End": 3.52,
+            "Event": "ABS_HAT0X",
+            "Start": 3.37,
+            "State": "Left"
+        },
+        {
+            "End": 3.9,
+            "Event": "BTN_SOUTH",
+            "Start": 3.65,
+            "State": "Grab"
+        },
+        {
+            "End": 3.88,
+            "Event": "ABS_HAT0Y",
+            "Start": 3.68,
+            "State": "Down"
+        }
+    ],
+    "Name": "Shark",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Spiral Corridor",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

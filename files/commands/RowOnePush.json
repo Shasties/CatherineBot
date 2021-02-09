@@ -1,0 +1,72 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.48,
+            "Event": "ABS_HAT0X",
+            "Start": 0.0,
+            "State": "Right"
+        },
+        {
+            "End": 1.02,
+            "Event": "ABS_HAT0X",
+            "Start": 0.7,
+            "State": "Left"
+        },
+        {
+            "End": 1.03,
+            "Event": "BTN_SOUTH",
+            "Start": 0.74,
+            "State": "Grab"
+        },
+        {
+            "End": 1.41,
+            "Event": "ABS_HAT0X",
+            "Start": 1.22,
+            "State": "Left"
+        },
+        {
+            "End": 2.24,
+            "Event": "BTN_SOUTH",
+            "Start": 1.54,
+            "State": "Grab"
+        },
+        {
+            "End": 2.17,
+            "Event": "ABS_HAT0X",
+            "Start": 1.95,
+            "State": "Left"
+        },
+        {
+            "End": 2.82,
+            "Event": "ABS_HAT0X",
+            "Start": 2.64,
+            "State": "Left"
+        },
+        {
+            "End": 3.61,
+            "Event": "BTN_SOUTH",
+            "Start": 2.92,
+            "State": "Grab"
+        },
+        {
+            "End": 3.52,
+            "Event": "ABS_HAT0X",
+            "Start": 3.31,
+            "State": "Left"
+        },
+        {
+            "End": 4.0,
+            "Event": "ABS_HAT0X",
+            "Start": 3.87,
+            "State": "Right"
+        }
+    ],
+    "Name": "RowOnePush",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Underground",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

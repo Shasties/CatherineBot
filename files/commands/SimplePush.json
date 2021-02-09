@@ -1,0 +1,192 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.14,
+            "Event": "ABS_HAT0X",
+            "Start": 0.0,
+            "State": "Right"
+        },
+        {
+            "End": 0.97,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.71,
+            "State": "Up"
+        },
+        {
+            "End": 0.9,
+            "Event": "BTN_SOUTH",
+            "Start": 0.72,
+            "State": "Grab"
+        },
+        {
+            "End": 1.37,
+            "Event": "ABS_HAT0X",
+            "Start": 1.15,
+            "State": "Left"
+        },
+        {
+            "End": 1.69,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.41,
+            "State": "Up"
+        },
+        {
+            "End": 2.2,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.85,
+            "State": "Up"
+        },
+        {
+            "End": 2.15,
+            "Event": "BTN_SOUTH",
+            "Start": 1.9,
+            "State": "Grab"
+        },
+        {
+            "End": 2.71,
+            "Event": "ABS_HAT0X",
+            "Start": 2.36,
+            "State": "Left"
+        },
+        {
+            "End": 3.14,
+            "Event": "ABS_HAT0Y",
+            "Start": 2.73,
+            "State": "Up"
+        },
+        {
+            "End": 3.1,
+            "Event": "BTN_SOUTH",
+            "Start": 2.77,
+            "State": "Grab"
+        },
+        {
+            "End": 3.67,
+            "Event": "ABS_HAT0X",
+            "Start": 3.35,
+            "State": "Right"
+        },
+        {
+            "End": 4.14,
+            "Event": "ABS_HAT0Y",
+            "Start": 3.78,
+            "State": "Up"
+        },
+        {
+            "End": 4.14,
+            "Event": "BTN_SOUTH",
+            "Start": 3.82,
+            "State": "Grab"
+        },
+        {
+            "End": 4.54,
+            "Event": "ABS_HAT0X",
+            "Start": 4.31,
+            "State": "Left"
+        },
+        {
+            "End": 4.91,
+            "Event": "ABS_HAT0X",
+            "Start": 4.74,
+            "State": "Left"
+        },
+        {
+            "End": 5.31,
+            "Event": "ABS_HAT0Y",
+            "Start": 4.96,
+            "State": "Up"
+        },
+        {
+            "End": 5.28,
+            "Event": "BTN_SOUTH",
+            "Start": 4.98,
+            "State": "Grab"
+        },
+        {
+            "End": 5.72,
+            "Event": "ABS_HAT0X",
+            "Start": 5.47,
+            "State": "Left"
+        },
+        {
+            "End": 6.14,
+            "Event": "ABS_HAT0Y",
+            "Start": 5.74,
+            "State": "Up"
+        },
+        {
+            "End": 6.06,
+            "Event": "BTN_SOUTH",
+            "Start": 5.75,
+            "State": "Grab"
+        },
+        {
+            "End": 6.57,
+            "Event": "ABS_HAT0X",
+            "Start": 6.26,
+            "State": "Left"
+        },
+        {
+            "End": 7.03,
+            "Event": "ABS_HAT0Y",
+            "Start": 6.61,
+            "State": "Up"
+        },
+        {
+            "End": 7.0,
+            "Event": "BTN_SOUTH",
+            "Start": 6.68,
+            "State": "Grab"
+        },
+        {
+            "End": 7.4,
+            "Event": "ABS_HAT0X",
+            "Start": 7.16,
+            "State": "Left"
+        },
+        {
+            "End": 7.8,
+            "Event": "ABS_HAT0Y",
+            "Start": 7.42,
+            "State": "Up"
+        },
+        {
+            "End": 7.78,
+            "Event": "BTN_SOUTH",
+            "Start": 7.46,
+            "State": "Grab"
+        },
+        {
+            "End": 8.18,
+            "Event": "ABS_HAT0X",
+            "Start": 8.02,
+            "State": "Right"
+        },
+        {
+            "End": 8.42,
+            "Event": "ABS_HAT0Y",
+            "Start": 8.35,
+            "State": "Up"
+        },
+        {
+            "End": 9.59,
+            "Event": "ABS_HAT0Y",
+            "Start": 9.3,
+            "State": "Up"
+        },
+        {
+            "End": 9.6,
+            "Event": "BTN_SOUTH",
+            "Start": 9.3,
+            "State": "Grab"
+        }
+    ],
+    "Name": "SimplePush",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Underground",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

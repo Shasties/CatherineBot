@@ -1,0 +1,72 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 0.16,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 0.59,
+            "Event": "ABS_HAT0X",
+            "Start": 0.33,
+            "State": "Left"
+        },
+        {
+            "End": 1.04,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.75,
+            "State": "Up"
+        },
+        {
+            "End": 1.54,
+            "Event": "BTN_SOUTH",
+            "Start": 1.2,
+            "State": "Grab"
+        },
+        {
+            "End": 1.53,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.24,
+            "State": "Down"
+        },
+        {
+            "End": 2.18,
+            "Event": "ABS_HAT0X",
+            "Start": 1.91,
+            "State": "Right"
+        },
+        {
+            "End": 2.59,
+            "Event": "ABS_HAT0Y",
+            "Start": 2.39,
+            "State": "Up"
+        },
+        {
+            "End": 3.11,
+            "Event": "ABS_HAT0X",
+            "Start": 2.77,
+            "State": "Left"
+        },
+        {
+            "End": 3.1,
+            "Event": "BTN_SOUTH",
+            "Start": 2.85,
+            "State": "Grab"
+        },
+        {
+            "End": 3.84,
+            "Event": "ABS_HAT0X",
+            "Start": 3.37,
+            "State": "Left"
+        }
+    ],
+    "Name": "Crossover",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Torture",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}

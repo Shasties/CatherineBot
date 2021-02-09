@@ -1,0 +1,300 @@
+{
+    "Controller": "Xbox",
+    "Main": [
+        {
+            "End": 1.13,
+            "Event": "ABS_HAT0Y",
+            "Start": 0.0,
+            "State": "Up"
+        },
+        {
+            "End": 1.9,
+            "Event": "ABS_HAT0X",
+            "Start": 1.74,
+            "State": "Left"
+        },
+        {
+            "End": 2.31,
+            "Event": "BTN_SOUTH",
+            "Start": 1.95,
+            "State": "Grab"
+        },
+        {
+            "End": 2.3,
+            "Event": "ABS_HAT0Y",
+            "Start": 1.96,
+            "State": "Down"
+        },
+        {
+            "End": 3.01,
+            "Event": "ABS_HAT0X",
+            "Start": 2.8,
+            "State": "Left"
+        },
+        {
+            "End": 3.34,
+            "Event": "ABS_HAT0Y",
+            "Start": 3.0,
+            "State": "Down"
+        },
+        {
+            "End": 3.34,
+            "Event": "BTN_SOUTH",
+            "Start": 3.02,
+            "State": "Grab"
+        },
+        {
+            "End": 3.93,
+            "Event": "ABS_HAT0X",
+            "Start": 3.76,
+            "State": "Right"
+        },
+        {
+            "End": 4.23,
+            "Event": "ABS_HAT0X",
+            "Start": 4.08,
+            "State": "Right"
+        },
+        {
+            "End": 4.56,
+            "Event": "ABS_HAT0Y",
+            "Start": 4.37,
+            "State": "Up"
+        },
+        {
+            "End": 5.04,
+            "Event": "ABS_HAT0Y",
+            "Start": 4.83,
+            "State": "Up"
+        },
+        {
+            "End": 5.54,
+            "Event": "BTN_SOUTH",
+            "Start": 5.19,
+            "State": "Grab"
+        },
+        {
+            "End": 5.5,
+            "Event": "ABS_HAT0Y",
+            "Start": 5.21,
+            "State": "Down"
+        },
+        {
+            "End": 6.13,
+            "Event": "ABS_HAT0X",
+            "Start": 5.93,
+            "State": "Right"
+        },
+        {
+            "End": 6.91,
+            "Event": "ABS_HAT0Y",
+            "Start": 6.17,
+            "State": "Up"
+        },
+        {
+            "End": 6.84,
+            "Event": "BTN_SOUTH",
+            "Start": 6.51,
+            "State": "Grab"
+        },
+        {
+            "End": 7.39,
+            "Event": "ABS_HAT0X",
+            "Start": 6.95,
+            "State": "Left"
+        },
+        {
+            "End": 7.77,
+            "Event": "ABS_HAT0Y",
+            "Start": 7.4,
+            "State": "Up"
+        },
+        {
+            "End": 7.8,
+            "Event": "BTN_SOUTH",
+            "Start": 7.45,
+            "State": "Grab"
+        },
+        {
+            "End": 8.26,
+            "Event": "ABS_HAT0X",
+            "Start": 7.96,
+            "State": "Right"
+        },
+        {
+            "End": 8.7,
+            "Event": "ABS_HAT0Y",
+            "Start": 8.38,
+            "State": "Up"
+        },
+        {
+            "End": 8.7,
+            "Event": "BTN_SOUTH",
+            "Start": 8.4,
+            "State": "Grab"
+        },
+        {
+            "End": 9.9,
+            "Event": "ABS_HAT0X",
+            "Start": 8.87,
+            "State": "Left"
+        },
+        {
+            "End": 9.2,
+            "Event": "BTN_SOUTH",
+            "Start": 8.91,
+            "State": "Grab"
+        },
+        {
+            "End": 10.37,
+            "Event": "ABS_HAT0Y",
+            "Start": 9.92,
+            "State": "Up"
+        },
+        {
+            "End": 10.32,
+            "Event": "BTN_SOUTH",
+            "Start": 9.98,
+            "State": "Grab"
+        },
+        {
+            "End": 10.75,
+            "Event": "ABS_HAT0X",
+            "Start": 10.48,
+            "State": "Left"
+        },
+        {
+            "End": 11.17,
+            "Event": "ABS_HAT0Y",
+            "Start": 10.75,
+            "State": "Up"
+        },
+        {
+            "End": 11.15,
+            "Event": "BTN_SOUTH",
+            "Start": 10.77,
+            "State": "Grab"
+        },
+        {
+            "End": 11.65,
+            "Event": "ABS_HAT0X",
+            "Start": 11.21,
+            "State": "Left"
+        },
+        {
+            "End": 12.04,
+            "Event": "ABS_HAT0Y",
+            "Start": 11.67,
+            "State": "Up"
+        },
+        {
+            "End": 12.03,
+            "Event": "BTN_SOUTH",
+            "Start": 11.71,
+            "State": "Grab"
+        },
+        {
+            "End": 12.42,
+            "Event": "ABS_HAT0X",
+            "Start": 12.11,
+            "State": "Left"
+        },
+        {
+            "End": 12.84,
+            "Event": "ABS_HAT0Y",
+            "Start": 12.44,
+            "State": "Up"
+        },
+        {
+            "End": 12.82,
+            "Event": "BTN_SOUTH",
+            "Start": 12.49,
+            "State": "Grab"
+        },
+        {
+            "End": 13.28,
+            "Event": "ABS_HAT0X",
+            "Start": 12.91,
+            "State": "Left"
+        },
+        {
+            "End": 13.62,
+            "Event": "ABS_HAT0Y",
+            "Start": 13.3,
+            "State": "Up"
+        },
+        {
+            "End": 13.62,
+            "Event": "BTN_SOUTH",
+            "Start": 13.32,
+            "State": "Grab"
+        },
+        {
+            "End": 14.26,
+            "Event": "ABS_HAT0X",
+            "Start": 13.73,
+            "State": "Right"
+        },
+        {
+            "End": 14.76,
+            "Event": "ABS_HAT0Y",
+            "Start": 14.24,
+            "State": "Up"
+        },
+        {
+            "End": 14.73,
+            "Event": "BTN_SOUTH",
+            "Start": 14.31,
+            "State": "Grab"
+        },
+        {
+            "End": 15.31,
+            "Event": "ABS_HAT0X",
+            "Start": 14.8,
+            "State": "Left"
+        },
+        {
+            "End": 15.75,
+            "Event": "ABS_HAT0Y",
+            "Start": 15.31,
+            "State": "Up"
+        },
+        {
+            "End": 15.71,
+            "Event": "BTN_SOUTH",
+            "Start": 15.34,
+            "State": "Grab"
+        },
+        {
+            "End": 16.15,
+            "Event": "ABS_HAT0X",
+            "Start": 15.92,
+            "State": "Right"
+        },
+        {
+            "End": 16.3,
+            "Event": "ABS_HAT0Y",
+            "Start": 16.24,
+            "State": "Up"
+        },
+        {
+            "End": 17.38,
+            "Event": "BTN_SOUTH",
+            "Start": 17.12,
+            "State": "Grab"
+        },
+        {
+            "End": 17.4,
+            "Event": "ABS_HAT0Y",
+            "Start": 17.13,
+            "State": "Up"
+        }
+    ],
+    "Name": "SpiralBreak",
+    "Play": "BTN_TR",
+    "Player": "1",
+    "Record": "BTN_TL",
+    "Stage": "Spiral Corridor",
+    "Style": "Recorded",
+    "Unready": "BTN_SELECT"
+}
